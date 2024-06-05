@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --grey: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --light-gray: #D5E1EF;
+    --white: hsl(0, 0%, 100%);
+    --blue: #2C7DFA;
+    --shade-blue: #3685FF;
+    --p-text-size: 15px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}
+
+.content {
+    width: 320px;
+    height: 497px;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.qr-img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.text {
+    padding: 0 16px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}
+.attribution a { 
+    color: var(--dark-blue); 
+    margin-left: 4px;
+}
